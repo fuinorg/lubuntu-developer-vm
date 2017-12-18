@@ -1,7 +1,20 @@
 # lubuntu-developer-vm
 Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox image.
 
-By default configured for German keyboard (See Vagrant file to change this).
+## Packages and configuration 
+* [leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)
+* [galculator](http://galculator.mnim.org/) (Calculator)
+* [Chromium](https://www.chromium.org/) (Browser)
+* [Open JDK 8](http://openjdk.java.net/) (Java Development Kit)
+* [git](https://git-scm.com/) (VCS)
+* [gksu](http://manpages.ubuntu.com/manpages/artful/man1/gksu.1.html) (frontend for su and sudo)
+* [Docker CE 1.13](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+* [Docker Compose 1.17](https://docs.docker.com/compose/)
+* [Python 2.7](https://www.python.org/download/releases/2.7/) and [pip](https://pip.pypa.io/)
+* [AWS cli 1.14](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) (Amazon AWS Command Line Interface)
+* German keyboard
+
+You can easily change this settings by editing the Vagrant file before building a new VM.
 
 # Build
 You can easily build the virtual machine on your local PC (bare metal).

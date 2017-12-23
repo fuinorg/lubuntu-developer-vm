@@ -8,12 +8,12 @@ You can also download the final **Lubuntu 17.10 Developer VM (64 Bit)** image (u
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 
-* User ```developer```
-* Password ```developer```
+* **User** ```developer```
+* **Password** ```developer```
 
 Be aware that there is also another (root) user 'vagrant' (password 'vagrant'). 
 
-(You should change the passwords on first login)
+*You should change the passwords on first login.*
 
 ## Packages and configuration 
 * [leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)

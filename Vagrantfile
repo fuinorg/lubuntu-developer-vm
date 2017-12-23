@@ -15,14 +15,16 @@ Vagrant.configure("2") do |config|
 
   # VirtualBox settings
   config.vm.provider "virtualbox" do |vb|
-    vb.gui = true
+    vb.linked_clone = false
+	vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
   end
 
   # VMware settings
   config.vm.provider "vmware_workstation" do |vmw|
-    vmw.gui = true
+    vmw.linked_clone = false
+    vmw.gui = false
     vmw.memory = 4096
     vmw.cpus = 2
     vmw.vmx["ethernet0.pcislotnumber"] = "33"

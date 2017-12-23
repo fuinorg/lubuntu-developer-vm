@@ -6,7 +6,11 @@ You can also download the final **Lubuntu 17.10 Developer VM (64 Bit)** image (u
 * [VirtualBox](https://fuinorg.jfrog.io/fuinorg/files/developer-vbx-lubuntu-17-10-amd64.zip) (~1 GB)
 * [VMware Workstation](https://fuinorg.jfrog.io/fuinorg/files/developer-vmw-lubuntu-17-10-amd64.zip) (~1 GB)
 
-Unpack and start the VM with VirtualBox or VMWare and login to the machine with user 'developer' and password 'developer' (You should change the pw on first login).
+Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
+* User ```developer```
+* Password ```developer```
+Be aware that there is also another (root) user 'vagrant' (password 'vagrant'). 
+(You should change the passwords on first login)
 
 ## Packages and configuration 
 * [leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)

@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
 	vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
+	vb.name = "lubuntu_dev_vbx"
   end
 
   # VMware settings
@@ -28,6 +29,7 @@ Vagrant.configure("2") do |config|
     vmw.memory = 4096
     vmw.cpus = 2
     vmw.vmx["ethernet0.pcislotnumber"] = "33"
+	vmw.vmx['displayname'] = 'lubuntu_dev_vmw'
   end
   
 end

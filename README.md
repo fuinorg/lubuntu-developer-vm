@@ -21,6 +21,7 @@ Be aware that there is also another (root) user 'vagrant' (password 'vagrant').
 * [Chromium](https://www.chromium.org/) (Browser)
 * [Open JDK 8](http://openjdk.java.net/) (Java Development Kit)
 * [Open JFX](http://openjdk.java.net/projects/openjfx/) (Java FX)
+* [Apache Maven](https://maven.apache.org/) (Java Build Tool)
 * [File Roller](https://wiki.gnome.org/Apps/FileRoller) (Archive Manager)
 * [Unzip](https://packages.ubuntu.com/artful/unzip) (De-archiver for .zip files)
 * [git](https://git-scm.com/) (VCS)

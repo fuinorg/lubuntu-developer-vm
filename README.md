@@ -3,8 +3,8 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 
 ## Download
 You can also download the final **Lubuntu 17.10.1 Developer VM (64 Bit)** image (uncompressed ~3 GB) here:
-* [VirtualBox](https://fuinorg.jfrog.io/fuinorg/files/developer-vbx-lubuntu-17-10-amd64.zip) (~1 GB)
-* [VMware Workstation](https://fuinorg.jfrog.io/fuinorg/files/developer-vmw-lubuntu-17-10-amd64.zip) (~1 GB)
+* [VirtualBox](https://fuinorg.jfrog.io/fuinorg/files/developer-vbx-lubuntu-17-10.1-amd64.zip) (~1 GB)
+* [VMware Workstation](https://fuinorg.jfrog.io/fuinorg/files/developer-vmw-lubuntu-17-10.1-amd64.zip) (~1 GB)
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 

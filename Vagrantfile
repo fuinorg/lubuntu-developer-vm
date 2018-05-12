@@ -21,16 +21,16 @@ Vagrant.configure("2") do |config|
 	vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
-	vb.name = "lubuntu_dev_vbx"
+    vb.name = "lubuntu_dev_vbx"
 	
-	#Simulate connected network cable
-	vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
+    #Simulate connected network cable
+    vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
 	
-	#Enable shared clipboard
-	vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+    #Enable shared clipboard
+    vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
 	
-	#Enable drag-n-drop
-	vb.customize ["modifyvm", :id, "--draganddrop", "bidirectional"]
+    #Enable drag-n-drop
+    vb.customize ["modifyvm", :id, "--draganddrop", "bidirectional"]
 	
   end
 
@@ -42,15 +42,12 @@ Vagrant.configure("2") do |config|
     vmw.memory = 4096
     vmw.cpus = 2
     vmw.vmx["ethernet0.pcislotnumber"] = "33"
-	vmw.vmx['displayname'] = 'lubuntu_dev_vmw'
+    vmw.vmx['displayname'] = 'lubuntu_dev_vmw'
 
-	# Disable shared folders
-	vmw.vmx["isolation.tools.hgfs.disable"] = "TRUE"
-
-	# Enable full DND
-	vmw.vmx["isolation.tools.dnd.disable"] = "FALSE"
-	vmw.vmx["isolation.tools.copy.disable"] = "FALSE"
-	vmw.vmx["isolation.tools.paste.disable"] = "FALSE"
+    # Enable full DND
+    vmw.vmx["isolation.tools.dnd.disable"] = "FALSE"
+    vmw.vmx["isolation.tools.copy.disable"] = "FALSE"
+    vmw.vmx["isolation.tools.paste.disable"] = "FALSE"
 
   end
   

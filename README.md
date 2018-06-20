@@ -1,6 +1,7 @@
 # lubuntu-developer-vm
 Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox image.
 
+[![Build Status](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/)
 [![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Requirements

@@ -1,7 +1,7 @@
 # lubuntu-developer-vm
 Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox image.
 
-[![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.de.html)
+[![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Requirements
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD

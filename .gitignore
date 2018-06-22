@@ -1,1 +1,4 @@
-.vagrant/
+.*
+!.gitignore
+!.gitkeep
+!.project

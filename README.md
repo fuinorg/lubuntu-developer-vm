@@ -9,9 +9,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 * **Recommended:** Intel Core i7, 16 GB RAM, 256 GB SSD
 
 ## Download
-You can also download the final **Lubuntu 17.10.1 Developer VM (64 Bit)** image (uncompressed ~3 GB) here:
-* [VirtualBox](https://fuinorg.jfrog.io/fuinorg/files/developer-vbx-lubuntu-17-10.1-amd64.zip) (~1 GB)
-* [VMware Workstation](https://fuinorg.jfrog.io/fuinorg/files/developer-vmw-lubuntu-17-10.1-amd64.zip) (~1 GB)
+You can also download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~3 GB) here: [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (~1 GB / vbx = VirtualBox / vmw = VMware Workstation)
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 
@@ -62,7 +60,7 @@ CAUTION: If you want to create a Virtual Box **and** a VMware image, you need to
 with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this 
 with the same configuration.  
 
-## Build
+## Manual build
 Execute the following commands in the root directory (where the 'Vagrantfile' is located).
 
 To build a VirtualBox image:
@@ -81,6 +79,9 @@ vagrant halt
 ```
 
 Start the new VM again with VirtualBox or VMWare and login to the machine with user 'developer' and password 'developer' (You should change the pw on first login).
+
+## Automated Jenkins build
+See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/).
 
 ## Credits
 Many thanks to [Aaron](https://github.com/slapula/) who created this [Vagrant](https://www.vagrantup.com/) configuration.

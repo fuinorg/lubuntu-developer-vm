@@ -9,7 +9,8 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 * **Recommended:** Intel Core i7, 16 GB RAM, 256 GB SSD
 
 ## Download
-You can also download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~3 GB) here: [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (~1 GB / vbx = VirtualBox / vmw = VMware Workstation)
+You can also download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~3 GB) here: 
+* [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (~1 GB / vbx = VirtualBox / vmw = VMware Workstation)
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 

@@ -6,7 +6,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) **master** | In Progress |
+| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/doc/warning.gif) In Progress |
 | [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) | 
 
 ## Requirements

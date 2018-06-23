@@ -9,7 +9,10 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 * **Recommended:** Intel Core i7, 16 GB RAM, 256 GB SSD
 * Enable [Virtualization](http://www.sysprobs.com/disable-enable-virtualization-technology-bios) in your BIOS
 * Make sure to turn **OFF** Hyper-V for Windows 10
-  * Goto "Programs and Features" / "Turn Windows features on or off" and **uncheck** the check box labeled as "Hyper-V"
+  * Click Windows 10 start button
+  * Goto "Programs and Features"
+  * Select "Turn Windows features on or off"
+  * **Uncheck** the check box labeled as "Hyper-V"
 
 ## Download
 You can also download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~3 GB) here: 

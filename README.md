@@ -7,10 +7,12 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Requirements
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD
 * **Recommended:** Intel Core i7, 16 GB RAM, 256 GB SSD
+* Enable [Virtualization](http://www.sysprobs.com/disable-enable-virtualization-technology-bios) in your BIOS
+* Make sure to turn **OFF** Hyper-V for Windows 10 ("Programs and Features / Turn Windows features on or off": DISABLE check box labeled as "Hyper-V")
 
 ## Download
 You can also download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~3 GB) here: 
-* [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (~1 GB / vbx = VirtualBox / vmw = VMware Workstation)
+* [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (~1.2 GB / 64 bit OS / vbx = VirtualBox / vmw = VMware Workstation)
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 

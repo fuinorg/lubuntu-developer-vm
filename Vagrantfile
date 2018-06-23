@@ -1,8 +1,8 @@
 Vagrant.configure("2") do |config|
 
   # See https://github.com/fuinorg/lubuntu-vagrant-base-box  
-  config.vm.box = "fuin/lubuntu-17.10-alternate-amd64"
-  config.vm.box_version = "17.10.1-0-49" 
+  config.vm.box = "fuin/lubuntu-18.04-alternate-amd64"
+  config.vm.box_version = "18.4-0-1" 
 
   # Install developer user
   config.vm.provision :shell, path: "scripts/developer-user.sh"
@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
   
     vb.linked_clone = false
-	  vb.gui = false
+	vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
     vb.name = "lubuntu_dev_vbx"

@@ -1,8 +1,11 @@
 # lubuntu-developer-vm
 Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox image.
 
-[![Build Status](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/)
 [![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+## Current versions
+* [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) [![Build Status](https://fuin-org.ci.cloudbees.com/job/ lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/  lubuntu-developer-vm-18.04-alternate-amd64/)
+* [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) [![Build Status](https://fuin-org.ci.cloudbees.com/job/ lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/  lubuntu-developer-vm-17.10.1-alternate-amd64/)
 
 ## Requirements
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD

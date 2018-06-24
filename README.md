@@ -43,7 +43,6 @@ Be aware that there is also another (root) user 'vagrant' (password 'vagrant').
 * [Unzip](https://packages.ubuntu.com/artful/unzip) (De-archiver for .zip files)
 * [git](https://git-scm.com/) (VCS)
 * [git-flow](https://packages.ubuntu.com/de/artful/git-flow) (See [Using git-flow to automate your git branching workflow](https://jeffkreeftmeijer.com/git-flow/))
-* [gksu](http://manpages.ubuntu.com/manpages/artful/man1/gksu.1.html) (frontend for su and sudo)
 * [Docker CE 1.13](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 * [Docker Compose 1.17](https://docs.docker.com/compose/)
 * [Python 2.7](https://www.python.org/download/releases/2.7/) and [pip](https://pip.pypa.io/)

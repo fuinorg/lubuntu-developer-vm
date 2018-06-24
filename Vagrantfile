@@ -18,20 +18,20 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
   
     vb.linked_clone = false
-	vb.gui = false
+    vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
     vb.name = "lubuntu_dev_vbx"
-	
+  
     #Simulate connected network cable
     vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
-	
+  
     #Enable shared clipboard
     vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
-	
+  
     #Enable drag-n-drop
     vb.customize ["modifyvm", :id, "--draganddrop", "bidirectional"]
-	
+  
   end
 
   # VMware settings

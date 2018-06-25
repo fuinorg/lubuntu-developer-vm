@@ -102,7 +102,7 @@ vagrant halt
 Start the new VM again with VirtualBox or VMWare and login to the machine with user 'developer' and password 'developer' (You should change the pw on first login).
 
 ## Automated Jenkins build
-See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/).
+See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins]https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/).
 
 ## Known Issues
 The virtualbox installation for 18.04 may fail with "GuestAdditions seems to be installed correctly, but not running". There is a discussion [here](https://github.com/dotless-de/vagrant-vbguest/issues/202) that has a workaround available (See this [bug description](https://github.com/fuinorg/vagrant-packet-builder/issues/9)).

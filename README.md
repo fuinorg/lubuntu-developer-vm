@@ -104,6 +104,9 @@ Start the new VM again with VirtualBox or VMWare and login to the machine with u
 ## Automated Jenkins build
 See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/).
 
+## Known Issues
+The virtualbox installation for 18.04 may fail with "GuestAdditions seems to be installed correctly, but not running". There is a discussion [here](https://github.com/dotless-de/vagrant-vbguest/issues/202) that has a workaround available (See this [bug description](https://github.com/fuinorg/vagrant-packet-builder/issues/9)).
+
 ## Credits
 Many thanks to [Aaron](https://github.com/slapula/) who created this [Vagrant](https://www.vagrantup.com/) configuration.
 You can hire him as a freelancer at [upwork.com](https://www.upwork.com/o/profiles/users/_~01d7141121116c4a6e/).

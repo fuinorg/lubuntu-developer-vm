@@ -25,7 +25,8 @@ You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~
   * \*_vbx-\*.zip = VirtualBox
   * \*_vmw-\*.zip = VMware Workstation
   * Numbering scheme: \*-&lt;lubuntu-version&gt;-&lt;code-version&gt;-&lt;build-number&gt;
-    * Example: lubuntu_dev_vmw-17.10.1-0-34.zip = Lubuntu 17.10.1 / Code version 0 / Build 34
+    * lubuntu_dev_vmw-17.10.1-0-34.zip = Lubuntu 17.10.1 / Code version 0 / Build 34
+    * lubuntu_dev_vmw-18.4-0-6.zip = Lubuntu 18.04 / Code version 0 / Build 6
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 

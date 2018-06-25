@@ -6,8 +6,8 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) |
-| [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) | 
+| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) |
+| [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Pre-built image available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) | 
 
 ## Requirements
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD
@@ -22,7 +22,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
   * [VMWare Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) (>=14)
   * [Virtual Box](https://www.virtualbox.org/) (>=5.2)
 
-## Download
+## Download Pre-Built Images
 You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~1.4 GB / Uncompressed ~4 GB) here: 
 * [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) 
   * \*_vbx-\*.zip = VirtualBox

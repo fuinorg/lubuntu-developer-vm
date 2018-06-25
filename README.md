@@ -20,8 +20,12 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
   * **Uncheck** the check box labeled as "Hyper-V"
 
 ## Download
-You can download the final **Lubuntu Developer VM (64 Bit)** image (uncompressed ~4 GB) here: 
-* [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) (\*_vbx-\*.zip = VirtualBox / \*_vmw-\*.zip = VMware Workstation)
+You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~1.4 GB / Uncompressed ~4 GB) here: 
+* [JFrog Artifactory](https://fuinorg.jfrog.io/fuinorg/list/files/) 
+  * \*_vbx-\*.zip = VirtualBox
+  * \*_vmw-\*.zip = VMware Workstation
+  * Numbering scheme: \*-&lt;lubuntu-version&gt;-&lt;code-version&gt;-&lt;build-number&gt;
+    * Example: lubuntu_dev_vmw-17.10.1-0-34.zip = Lubuntu 17.10.1 / Code version 0 / Build 34
 
 Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 

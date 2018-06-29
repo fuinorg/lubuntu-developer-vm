@@ -77,10 +77,6 @@ Also install:
 Checkout this repository or download and unzip the content to your hard disk.
 You can easily adjust all shell scripts and settings to your needs.
 
-CAUTION: If you want to create a Virtual Box **and** a VMware image, you need to create two different directories 
-with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this 
-with the same configuration.  
-
 ## Manual build
 Execute the following commands in the root directory (where the 'Vagrantfile' is located).
 
@@ -105,7 +101,7 @@ Start the new VM again with VirtualBox or VMWare and login to the machine with u
 See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/).
 
 ## Known Issues
-The virtualbox installation for 18.04 may fail with "GuestAdditions seems to be installed correctly, but not running". There is a discussion [here](https://github.com/dotless-de/vagrant-vbguest/issues/202) that has a workaround available (See this [bug description](https://github.com/fuinorg/vagrant-packet-builder/issues/9)).
+If you want to create a Virtual Box **and** a VMware image, you need to create two different directories with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this with the same configuration / same build.
 
 ## Credits
 Many thanks to [Aaron](https://github.com/slapula/) who created this [Vagrant](https://www.vagrantup.com/) configuration.

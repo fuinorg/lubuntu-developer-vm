@@ -21,9 +21,9 @@ pipeline {
                 dir('vagrant-packet-builder') {
                     withCredentials( [ 
                             string(credentialsId: 'packet-lubuntu-developer-vm-api-token', variable: 'PACKET_API_TOKEN'), 
-                            string(credentialsId: 'jfrog_upload_url', variable: 'VM_UPLOAD_URL'),
-                            string(credentialsId: 'jfrog_user', variable: 'VM_UPLOAD_USER'),
-                            string(credentialsId: 'jfrog_password', variable: 'VM_UPLOAD_PW'),
+                            string(credentialsId: 'fuin_vm_upload_url', variable: 'VM_UPLOAD_URL'),
+                            string(credentialsId: 'fuin_vm_upload_user', variable: 'VM_UPLOAD_USER'),
+                            string(credentialsId: 'fuin_vm_upload_pw', variable: 'VM_UPLOAD_PW'),
                             string(credentialsId: 'vmware_workstation_14_linux_serial_number', variable: 'VMWARE_SERIAL'),
                             string(credentialsId: 'vmware_workstation_14_linux_bundle_url', variable: 'VMWARE_URL'),
                             string(credentialsId: 'vagrant_vmware_lic_url', variable: 'VAGRANT_VMW_LIC_URL')                        

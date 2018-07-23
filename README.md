@@ -76,7 +76,7 @@ Execute the following commands in the root directory (where the 'Vagrantfile' is
 
 To build a VirtualBox image:
 ```
-vagrant up
+vagrant up --provider virtualbox
 ```
 
 To build a VMware image (Requires [VMware provider](https://www.vagrantup.com/vmware)):

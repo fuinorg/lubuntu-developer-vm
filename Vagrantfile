@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
   
     vb.linked_clone = false
-	  vb.gui = false
+    vb.gui = false
     vb.memory = 4096
     vb.cpus = 2
     vb.name = "lubuntu_dev_vbx"

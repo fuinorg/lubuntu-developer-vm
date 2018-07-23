@@ -6,8 +6,8 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) |
-| [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Pre-built image available for [download](https://fuinorg.jfrog.io/fuinorg/list/files/) | 
+| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
+| [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Pre-built image available for [download](https://www.fuin.org/vm/) | 
 
 ## Requirements for running the VM
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD

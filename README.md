@@ -6,8 +6,8 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 18.04-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
-| [![Build Status 17.10.1-alternate-amd64](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Pre-built image available for [download](https://www.fuin.org/vm/) | 
+| [![Build Status 18.04-alternate-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
+| [![Build Status 17.10.1-alternate-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | Pre-built image available for [download](https://www.fuin.org/vm/) | 
 
 ## Requirements for running the VM
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD
@@ -98,7 +98,7 @@ vagrant halt
 Start the new VM again with VirtualBox or VMWare and login to the machine with user 'developer' and password 'developer' (You should change the pw on first login).
 
 ## Automated Jenkins build
-See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-18.04-alternate-amd64/).
+See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/).
 
 ## Known Issues
 If you want to create a Virtual Box **and** a VMware image, you need to create two different directories with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this with the same configuration / same build.

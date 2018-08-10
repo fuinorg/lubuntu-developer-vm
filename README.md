@@ -6,7 +6,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch |
 | :---- | :----- |
-| [![Build Status](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | 
+| [![Build Status](https://jenkins.fuin.org/job/lubuntu-developer-vm-17.10.1-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-17.10.1-alternate-amd64/) | [Lubuntu 17.10.1 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-17.10.1-alternate-amd64) | 
 
 ## Requirements
 * **Minimal:** Intel Core i5, 8 GB RAM, 128 GB SSD
@@ -92,7 +92,7 @@ vagrant halt
 Start the new VM again with VirtualBox or VMWare and login to the machine with user 'developer' and password 'developer' (You should change the pw on first login).
 
 ## Automated Jenkins build
-See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://fuin-org.ci.cloudbees.com/job/lubuntu-developer-vm/).
+See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://jenkins.fuin.org/job/lubuntu-developer-vm/).
 
 ## Credits
 Many thanks to [Aaron](https://github.com/slapula/) who created this [Vagrant](https://www.vagrantup.com/) configuration.

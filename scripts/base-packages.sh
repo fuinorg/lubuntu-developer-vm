@@ -11,7 +11,9 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(
 
 apt-get install -y leafpad galculator chromium-browser openjdk-8-jdk openjfx maven file-roller unzip git git-flow docker.io python-pip
 
-curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+COMPOSE_FILE=/usr/local/bin/docker-compose
+COMPOSE_URL=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/docker/compose/releases/latest)
+curl -L $COMPOSE_URL/docker-compose-`uname -s`-`uname -m` -o $COMPOSE_FILE
+chmod +x $COMPOSE_FILE
 
 pip install awscli --upgrade

@@ -54,7 +54,7 @@ Be aware that there is also another (root) user 'vagrant' (password 'vagrant').
 * [git](https://git-scm.com/) (VCS)
 * [git-flow](https://packages.ubuntu.com/de/artful/git-flow) (See [Using git-flow to automate your git branching workflow](https://jeffkreeftmeijer.com/git-flow/))
 * [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
-* [Docker Compose 1.17](https://docs.docker.com/compose/)
+* [Docker Compose](https://docs.docker.com/compose/)
 * [Python 2.7](https://www.python.org/download/releases/2.7/) and [pip](https://pip.pypa.io/)
 * [AWS cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) (Amazon AWS Command Line Interface)
 * German keyboard

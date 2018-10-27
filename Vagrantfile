@@ -14,6 +14,9 @@ Vagrant.configure("2") do |config|
   ENV['LC_ALL']="de_DE.UTF-8"
   config.vm.provision :shell, inline: "localectl set-keymap de"
 
+  # Add developer user to docker group
+  config.vm.provision :shell, inline: "usermod -aG docker developer"
+  
   # VirtualBox settings
   config.vm.provider "virtualbox" do |vb|
   

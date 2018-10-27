@@ -17,4 +17,7 @@ COMPOSE_URL=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/docke
 curl -L $COMPOSE_URL/docker-compose-`uname -s`-`uname -m` -o $COMPOSE_FILE
 chmod +x $COMPOSE_FILE
 
+sudo groupadd docker
+sudo usermod -aG docker developer
+
 pip install awscli --upgrade

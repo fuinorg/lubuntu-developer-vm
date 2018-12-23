@@ -9,7 +9,7 @@ apt-get install software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
-apt-get install -y leafpad galculator chromium-browser openjdk-8-jdk openjfx maven file-roller unzip git git-flow docker.io python-pip
+apt-get install -y leafpad galculator chromium-browser openjdk-8-jdk openjdk-8-source openjfx openjfx-source maven file-roller unzip git git-flow docker.io python-pip
 update-java-alternatives --set java-1.8.0-openjdk-amd64
 
 COMPOSE_FILE=/usr/local/bin/docker-compose

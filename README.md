@@ -101,9 +101,14 @@ Start the new VM again with VirtualBox or VMWare and login to the machine with u
 See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Jenkins](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/).
 
 ## Known Issues
+
+### Build
 If you want to create a Virtual Box **and** a VMware image, you need to create two different directories with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this with the same configuration / same build.
 
-### Virtual Box
+### VMware VM
+None
+
+### Virtual Box VM
 There are some issues with the virtual box VM that are not related to this project, but to VirtualBox itself.
 * Display corrupted/garbled (See [Bug #1766859](https://bugs.launchpad.net/ubuntu/+source/lubuntu-meta/+bug/1766859))
   * Change to TTY (Ctrl+Alt F1) and back (Ctr+Alt F7) is a workaround the problem

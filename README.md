@@ -114,14 +114,14 @@ There are some issues with the virtual box VM that are not related to this proje
   * Change to TTY (Ctrl+Alt F1) and back (Ctr+Alt F7) is a workaround the problem
   * Enable 3D acceleration for the VM
   * Enhance the video memory for the VM to 128 MB
-  * If all doesn't help: Use VMware Player
+  * If all doesn't help: Use VMware Player with other VMware VM
 * Change screen resolution fails (stuck at 1024x768). It's not really clear when/why this happens - Things you can try:
   * If the display is garbled (see above), most likely changing the screen resolution will also fail
   * Enable 3D acceleration for the VM
   * Enhance the video memory for the VM to 128 MB
   * Try to toggle between full screen and non-full screen mode
   * Shutdown VM in full screen mode (next start will then be in full screen mode)
-  * If all doesn't help: Use VMware Player
+  * If all doesn't help: Use VMware Player with other VMware VM
 
 
 ## Credits

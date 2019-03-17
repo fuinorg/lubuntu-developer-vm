@@ -103,6 +103,21 @@ See [Jenkinsfile](Jenkinsfile) for an example how to build this project with [Je
 ## Known Issues
 If you want to create a Virtual Box **and** a VMware image, you need to create two different directories with the content of this repository. There is currently a limitation of Vagrant that does not allow to do this with the same configuration / same build.
 
+### Virtual Box
+There are some issues with the virtual box VM that are not related to this project, but to VirtualBox itself.
+* Display corrupted/garbled (See [Bug #1766859](https://bugs.launchpad.net/ubuntu/+source/lubuntu-meta/+bug/1766859))
+  * Change to TTY (Ctrl+Alt F1) and back (Ctr+Alt F7) is a workaround the problem
+  * Enable 3D acceleration for the VM
+  * Enhance the video memory for the VM to 128 MB
+  * If all doesn't help: Use VMware Player
+* Change screen resolution fails (stuck at 1024x768). It's not really clear when/why this happens - Things you can try:
+  * If the display is garbled (see above), most likely changing the screen resolution will also fail
+  * Enable 3D acceleration for the VM
+  * Enhance the video memory for the VM to 128 MB
+  * Shutdown VM in full screen mode (next start will then be in full screen mode)
+  * If all doesn't help: Use VMware Player
+
+
 ## Credits
 Many thanks to [Aaron](https://github.com/slapula/) who created this [Vagrant](https://www.vagrantup.com/) configuration.
 You can hire him as a freelancer at [upwork.com](https://www.upwork.com/o/profiles/users/_~01d7141121116c4a6e/).

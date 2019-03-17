@@ -119,6 +119,7 @@ There are some issues with the virtual box VM that are not related to this proje
   * If the display is garbled (see above), most likely changing the screen resolution will also fail
   * Enable 3D acceleration for the VM
   * Enhance the video memory for the VM to 128 MB
+  * Try to toggle between full screen and non-full screen mode
   * Shutdown VM in full screen mode (next start will then be in full screen mode)
   * If all doesn't help: Use VMware Player
 

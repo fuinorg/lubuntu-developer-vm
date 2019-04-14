@@ -14,7 +14,8 @@ update-java-alternatives --set java-1.8.0-openjdk-amd64
 
 COMPOSE_FILE=/usr/local/bin/docker-compose
 COMPOSE_URL=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/docker/compose/releases/latest)
-curl -L $COMPOSE_URL/docker-compose-`uname -s`-`uname -m` -o $COMPOSE_FILE
+COMPOSE_DOWNLOAD_URL=${COMPOSE_URL/tag/download}/docker-compose-`uname -s`-`uname -m`
+curl -L $COMPOSE_DOWNLOAD_URL -o $COMPOSE_FILE
 chmod +x $COMPOSE_FILE
 
 pip install awscli --upgrade

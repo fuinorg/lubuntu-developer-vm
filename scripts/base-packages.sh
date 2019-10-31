@@ -37,5 +37,9 @@ chown root:developer /var/snap/microk8s/current/args/kubectl
 # SdkMan!
 export SDKMAN_DIR="/home/developer/.sdkman" && curl -s "https://get.sdkman.io" | bash
 chown -R developer:developer /home/developer/.sdkman
+tee -a /home/developer/.bashrc <<< ''
+tee -a /home/developer/.bashrc <<< '#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!'
+tee -a /home/developer/.bashrc <<< 'export SDKMAN_DIR="/home/developer/.sdkman"'
+tee -a /home/developer/.bashrc <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin
 
 pip install awscli --upgrade

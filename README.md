@@ -23,7 +23,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
   * [Virtual Box](https://www.virtualbox.org/) (>=5.2)
 
 ## Download pre-built images
-You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~1.7 GB / Uncompressed ~5 GB) here: 
+You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~2.3 GB / Uncompressed ~5.6 GB) here: 
 * [fuin.org/vm](https://www.fuin.org/vm/) 
   * \*_vbx-\*.zip = VirtualBox
   * \*_vmw-\*.zip = VMware Workstation

@@ -29,9 +29,13 @@ chmod +x $COMPOSE_FILE
 
 # MicroK8s
 snap install microk8s --classic
+chown root:developer /var/snap/microk8s/current/credentials/
+chown root:developer /var/snap/microk8s/current/credentials/client.config
+chown root:developer /var/snap/microk8s/current/args/
+chown root:developer /var/snap/microk8s/current/args/kubectl
 
 # SdkMan!
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/developer/.sdkman" && curl -s "https://get.sdkman.io" | bash
+chown -R developer:developer /home/developer/.sdkman
 
 pip install awscli --upgrade

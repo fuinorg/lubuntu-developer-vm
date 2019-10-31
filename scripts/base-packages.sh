@@ -40,6 +40,6 @@ chown -R developer:developer /home/developer/.sdkman
 tee -a /home/developer/.bashrc <<< ''
 tee -a /home/developer/.bashrc <<< '#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!'
 tee -a /home/developer/.bashrc <<< 'export SDKMAN_DIR="/home/developer/.sdkman"'
-tee -a /home/developer/.bashrc <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin'
+tee -a /home/developer/.bashrc <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin/sdkman-init.sh"'
 
 pip install awscli --upgrade

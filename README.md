@@ -43,18 +43,19 @@ Be aware that there is also another (root) user 'vagrant' (password 'vagrant').
 *You should change the passwords on first login.*
 
 ## Packages and configuration 
-* [leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)
-* [galculator](http://galculator.mnim.org/) (Calculator)
+* [Snap](https://wiki.ubuntuusers.de/snap/) (Software deployment and package management system)
+* [Leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)
+* [Galculator](http://galculator.mnim.org/) (Calculator)
 * [Chromium](https://www.chromium.org/) (Browser)
-* [Open JDK](http://openjdk.java.net/) (Java Development Kit)
-* [Open JFX](http://openjdk.java.net/projects/openjfx/) (Java FX)
-* [Apache Maven](https://maven.apache.org/) (Java Build Tool)
+* [SdkMan!](https://sdkman.io/) (Manage parallel versions of Java, Maven and other tools)
 * [File Roller](https://wiki.gnome.org/Apps/FileRoller) (Archive Manager)
 * [Unzip](https://packages.ubuntu.com/artful/unzip) (De-archiver for .zip files)
 * [git](https://git-scm.com/) (VCS)
 * [git-flow](https://packages.ubuntu.com/de/artful/git-flow) (See [Using git-flow to automate your git branching workflow](https://jeffkreeftmeijer.com/git-flow/))
 * [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 * [Docker Compose](https://docs.docker.com/compose/)
+* [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) (Kubernetes command line interface)
+* [MicroK8s](https://microk8s.io/) (Zero-ops Kubernetes for workstations)
 * [Python 2.7](https://www.python.org/download/releases/2.7/) and [pip](https://pip.pypa.io/)
 * [AWS cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) (Amazon AWS Command Line Interface)
 * German keyboard

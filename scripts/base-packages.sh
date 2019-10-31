@@ -5,17 +5,33 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update -y
 apt-get dist-upgrade -y
 apt-get install software-properties-common -y
+apt-get install apt-transport-https -y
 
+# Add Docker repo
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+apt-get update -y
+	
+# Add Kubernetes repo
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+apt-get update -y
 
-apt-get install -y leafpad galculator chromium-browser openjdk-8-jdk openjdk-8-source openjfx openjfx-source maven file-roller unzip git git-flow docker.io python-pip
-update-java-alternatives --set java-1.8.0-openjdk-amd64
+# Standard packages
+apt-get install -y leafpad galculator chromium-browser file-roller unzip git git-flow docker.io python-pip snapd kubectl
 
+# Docker Compose
 COMPOSE_FILE=/usr/local/bin/docker-compose
 COMPOSE_URL=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/docker/compose/releases/latest)
 COMPOSE_DOWNLOAD_URL=${COMPOSE_URL/tag/download}/docker-compose-`uname -s`-`uname -m`
 curl -L $COMPOSE_DOWNLOAD_URL -o $COMPOSE_FILE
 chmod +x $COMPOSE_FILE
+
+# MicroK8s
+snap install microk8s --classic
+
+# SdkMan!
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 pip install awscli --upgrade

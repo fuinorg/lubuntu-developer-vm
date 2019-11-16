@@ -41,5 +41,10 @@ tee -a /home/developer/.bashrc <<< ''
 tee -a /home/developer/.bashrc <<< '#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!'
 tee -a /home/developer/.bashrc <<< 'export SDKMAN_DIR="/home/developer/.sdkman"'
 tee -a /home/developer/.bashrc <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin/sdkman-init.sh"'
+tee -a /home/developer/.profile <<< ''
+tee -a /home/developer/.profile <<< '#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!'
+tee -a /home/developer/.profile <<< 'export SDKMAN_DIR="/home/developer/.sdkman"'
+tee -a /home/developer/.profile <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin/sdkman-init.sh"'
 
+# AWS command line client
 pip install awscli --upgrade

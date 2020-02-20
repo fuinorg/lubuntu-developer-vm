@@ -20,7 +20,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
   * **Uncheck** the check box labeled as "Hyper-V"
 * Install at least one of the following Hypervisors
   * [VMWare Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) (>=14)
-  * [Virtual Box](https://www.virtualbox.org/) (>=5.2)
+  * [Virtual Box](https://www.virtualbox.org/) (>=6.1)
 
 ## Download pre-built images
 You can download the final **Lubuntu Developer VM (64 Bit)** image (Compressed ~2.3 GB / Uncompressed ~5.6 GB) here: 

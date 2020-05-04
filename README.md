@@ -9,7 +9,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 20.04-alternate-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-alternate-amd64/) | [Lubuntu 20.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
+| [![Build Status 20.04-mini-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/) | [Lubuntu 20.04 Mini AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
 | [![Build Status 18.04-alternate-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-18.04-alternate-amd64) | Pre-built image available for [download](https://www.fuin.org/vm/) | 
 
 ## Requirements for running the VM

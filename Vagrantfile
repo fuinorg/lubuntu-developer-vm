@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
 
   # See https://github.com/fuinorg/lubuntu-vagrant-base-box  
-  config.vm.box = "fuin/lubuntu-20.04-alternate-amd64"
+  config.vm.box = "fuin/lubuntu-20.04-mini-amd64"
   config.vm.box_version = "20.4-0-0" 
 
   # Install developer user

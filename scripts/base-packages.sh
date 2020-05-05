@@ -19,7 +19,6 @@ apt-get update -y
 
 # Standard packages
 apt-get install -y galculator chromium-browser file-roller unzip git git-flow docker.io python3-pip snapd kubectl
-snap install leafpad
 
 # Docker Compose
 COMPOSE_FILE=/usr/local/bin/docker-compose

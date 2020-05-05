@@ -47,7 +47,7 @@ Be aware that there is also another (root) user 'vagrant' (password 'vagrant').
 
 ## Packages and configuration 
 * [Snap](https://wiki.ubuntuusers.de/snap/) (Software deployment and package management system)
-* [Leafpad](https://wiki.ubuntuusers.de/Leafpad/) (Text editor)
+* [Featherpad](https://manual.lubuntu.me/stable/2/2.4/2.4.2/Featherpad.html) (Text editor)
 * [Galculator](http://galculator.mnim.org/) (Calculator)
 * [Chromium](https://www.chromium.org/) (Browser)
 * [SdkMan!](https://sdkman.io/) (Manage parallel versions of Java, Maven and other tools)

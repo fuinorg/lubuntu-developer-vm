@@ -9,7 +9,7 @@ apt-get install apt-transport-https -y
 
 # Add Docker repo
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu eoan stable"
 apt-get update -y
 	
 # Add Kubernetes repo
@@ -18,7 +18,8 @@ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/
 apt-get update -y
 
 # Standard packages
-apt-get install -y leafpad galculator chromium-browser file-roller unzip git git-flow docker.io python-pip snapd kubectl
+apt-get install -y galculator chromium-browser file-roller unzip git git-flow docker.io python3-pip snapd kubectl
+snap install leafpad
 
 # Docker Compose
 COMPOSE_FILE=/usr/local/bin/docker-compose
@@ -47,4 +48,4 @@ tee -a /home/developer/.profile <<< 'export SDKMAN_DIR="/home/developer/.sdkman"
 tee -a /home/developer/.profile <<< '[[ -s "/home/developer/.sdkman/bin/sdkman-init.sh" ]] && source "/home/developer/.sdkman/bin/sdkman-init.sh"'
 
 # AWS command line client
-pip install awscli --upgrade
+pip3 install awscli --upgrade

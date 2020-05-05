@@ -41,7 +41,11 @@ Unpack and start the VM with VirtualBox or VMWare and login to the machine with:
 * **User** ```developer```
 * **Password** ```developer```
 
-Be aware that there is also another (root) user 'vagrant' (password 'vagrant'). 
+Be aware that there is also another (root) user 'vagrant' (password 'vagrant'). You can remove it safely with:
+```
+sudo userdel vagrant
+sudo rm -r /home/vagrant 
+```
 
 *You should change the passwords on first login.*
 

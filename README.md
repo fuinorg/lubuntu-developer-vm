@@ -4,7 +4,7 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 [![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Status
-![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) **New 20.04 LTS is not yet finished as the Alternate ISO is no longer available from Lubuntu and we have to move to the Ubuntu "mini.iso"** ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif)
+![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) **New 20.04 LTS is not yet finished as the Alternate ISO is no longer available from Lubuntu and we have to move to the Ubuntu "mini.iso" or some other base image** ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif)
 
 ## Current versions
 | Build | Branch | Status |

@@ -4,12 +4,12 @@ Vagrant configuration for creating a developer Lubuntu VMware and VirtualBox ima
 [![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Status
-![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) **New 20.04 LTS is not yet finished (work in progress!) as the Alternate ISO is no longer available from Lubuntu and we have to move to the Ubuntu "mini.iso"** ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif)
+![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) **New 20.04 LTS is not yet finished as the Alternate ISO is no longer available from Lubuntu and we have to move to the Ubuntu "mini.iso"** ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif)
 
 ## Current versions
 | Build | Branch | Status |
 | :---- | :----- | :----- |
-| [![Build Status 20.04-mini-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/) | [Lubuntu 20.04 Mini AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) |
+| [![Build Status 20.04-mini-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-20.04-mini-amd64/) | [Lubuntu 20.04 Mini AMD64](https://github.com/fuinorg/lubuntu-developer-vm/) \[**master**\] | Pre-built image available for [download](https://www.fuin.org/vm/) ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) Work in progress - Has some issues! ![Warning](https://raw.githubusercontent.com/fuinorg/lubuntu-developer-vm/master/warning.gif) |
 | [![Build Status 18.04-alternate-amd64](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/badge/icon)](https://jenkins.fuin.org/job/lubuntu-developer-vm-18.04-alternate-amd64/) | [Lubuntu 18.04 Alternate AMD64](https://github.com/fuinorg/lubuntu-developer-vm/tree/lubuntu-18.04-alternate-amd64) | Pre-built image available for [download](https://www.fuin.org/vm/) | 
 
 ## Requirements for running the VM
